@@ -1,0 +1,5 @@
+{
+    "cmd": ["cmd.exe", "/c", "start", "compasswatch.bat", "$project_path"],
+    "working_dir": "$packages/Compass",
+    "selector": "source.sass"
+}
