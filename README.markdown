@@ -1,25 +1,27 @@
-Sublime Text 2 SCSS/SASS Package
+Sublime Text 2 Compass Build System (Win)
 =======================================
 
-Contains syntax highlighting and build commands for Windows, Linux and OSX.
+Adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed).
 
-Important: Your folder structure should look like this:
-
-yourproject/stylesheets
-yourproject/sass
+Create a project and place the Sublime Text Project file in your project's folder root.
+Example:
 yourproject/project.sublime-project
 
-A Sublime Text 2 Project File in the root of your project is necessary
+A Sublime Text 2 Project File in the root of your project is necessary.
 
 
 INSTALLATION
 ------------------------------------
 
-### Easy way
+### Prerequisites
+
+Ruby and Compass have to be installed. 
+
+### Installation: Easy way
 
 1. Open terminal / git bash and browse to the Sublime Text Packages Folder (OSX: cd ~/Library/Application Support/Sublime Text 2/Packages || WIN: C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages)
 
-2. git clone git://github.com/WhatWeDo/SASS.git SASS
+2. git clone git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
 
 ### Manually
 
@@ -29,11 +31,11 @@ INSTALLATION
 
 2. Once that folder is open, close Sublime Text 2.
 
-3. Rename folder to SASS and move it in the package folder
+3. Rename folder to Compass and move it in the package folder
 
 4. Restart Sublime Text 2.
 
 Build
 ------------------------------------
 
-Open one of your .sass files and press CTRL + B (or Tools > Build).
+Open one of your .sass files and press CTRL + B (or Tools > Build). If you have more than one Build System that is able to compile SASS, change the Build System to Compass under Tools > Build.
