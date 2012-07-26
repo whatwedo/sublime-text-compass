@@ -1,4 +1,4 @@
-Sublime Text 2 Compass Build System (Win)
+Sublime Text 2 Compass Build System
 =======================================
 
 Adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed).
@@ -19,11 +19,16 @@ Ruby and Compass have to be installed.
 
 ### Installation: Easy way
 
-1. Open terminal / git bash and browse to the Sublime Text Packages Folder (OSX: cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages || WIN: C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages)
+1. Open terminal / git bash and browse to the Sublime Text Packages Folder
+OSX: cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+Windows: C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
 
 2. git clone git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
+(Where "Compass" is the name of the folder you want to clone the build system. This means in this example, the Build System in Sublime Text 2 could be found named as "Compass")
 
 ### Manually
+
+1. Download the zipped package from Github
 
 1. Go to menu bar: "Sublime Text 2 > Preferences > Browse Packages..."
    - Alternate method, on OS X, in Terminal:
@@ -31,7 +36,7 @@ Ruby and Compass have to be installed.
 
 2. Once that folder is open, close Sublime Text 2.
 
-3. Rename folder to Compass and move it in the package folder
+4. Extract the zip and rename folder to Compass and move it in the package folder
 
 4. Restart Sublime Text 2.
 
