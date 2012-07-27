@@ -8,13 +8,7 @@
 			"homepage": "https://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System",
 			"last_modified": "2012-07-27 01:00:00",
 			"platforms": {
-				"osx": [
-					{
-						"version": "1.0.1",
-						"url": "https://nodeload.github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System/zipball/v1.0.1"
-					}
-				],
-				"windows": [
+				"*": [
 					{
 						"version": "1.0.1",
 						"url": "https://nodeload.github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System/zipball/v1.0.1"
