@@ -33,16 +33,16 @@ I recommend this method If you want the Compass Build System always up-to-date.
 1. Open terminal / git bash and browse to the Sublime Text Packages Folder
 
 * OSX:
-	cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
 
 * Windows:
-	C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
+    C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
 
 * Linux:
-	~/.config/sublime-text-2/Packages/
+    ~/.config/sublime-text-2/Packages/
 
 2. `git clone` the repository in a Folder named "Compass". The folder have to be named Compass for the Build System to work.
-	git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
+    git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
 
 ### Manually
 
@@ -51,13 +51,13 @@ I recommend this method If you want the Compass Build System always up-to-date.
 2. Browse to the Sublime Text 2 Package folder
 
 * OSX:
-	cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
 
 * Windows:
-	C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
+    C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
 
 * Linux:
-	~/.config/sublime-text-2/Packages/
+    ~/.config/sublime-text-2/Packages/
 
 3. Once that folder is open, close Sublime Text 2.
 
