@@ -5,7 +5,7 @@ Adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-S
 
 Create a project and place the Sublime Text Project file in your project's folder root.
 Example:
-yourproject/project.sublime-project
+    yourproject/project.sublime-project
 
 A Sublime Text 2 Project File in the root of your project is necessary.
 
