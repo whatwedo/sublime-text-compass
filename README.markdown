@@ -25,7 +25,7 @@ I recommend this method If you want the Compass Build System always up-to-date.
 2. Use Preferences > Package Control or `Command+Shift+P` (OS X) / `Control+Shift+P` (Linux/Windows) and select "Package Control: Install Package". Wait while repositories are loading.
 3. When the command form appears type "Compass" and you'll find the Compass Build System. Select to install.
 
-![Package Control](http://f.cl.ly/items/191f1R0G2T0v0q1N0n3x/Image%202012-08-01%20at%202.52.08%20PM.png)
+![Package Control](http://f.cl.ly/items/3k2y0g1U342o3W3K3336/Image%202012-08-21%20at%209.40.41%20PM.png)
 
 
 ### Without Package Control plugin: GIT
