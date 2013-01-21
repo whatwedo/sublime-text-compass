@@ -1,2 +1,2 @@
-compass watch %1
+compass watch %1  --boring
 pause
