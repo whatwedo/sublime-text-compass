@@ -1,10 +1,10 @@
 {
-	"cmd": "cd '$project_path'; compass watch",
+	"cmd": "cd '${file_path}'; compass watch --boring",
 	"working_dir": "$packages/Compass",
 	"selector": "source.sass, source.scss",
 	"shell": "true",
 	"windows":
 	{
-		"cmd": ["compasswatch.bat", "$project_path"]
+		"cmd": ["compasswatch.bat", "${file_path}"]
 	}
 }
