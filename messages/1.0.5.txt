@@ -1,0 +1,2 @@
+- Fixed path: No longer needed to use a sublime-project file. The build system looks for the sass files
+- Updated console: More verbose output.
