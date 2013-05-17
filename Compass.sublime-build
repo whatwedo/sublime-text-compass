@@ -1,10 +1,10 @@
 {
-	"cmd": "cd '${file_path}'; compass watch --boring",
+	"cmd": "[ -r '${project_path:${folder}}/config.rb' ] && compass watch '${project_path:${folder}}' --boring; [ -r '${file_path}/config.rb' ] && compass watch '${file_path}' --boring",
 	"working_dir": "$packages/Compass",
 	"selector": "source.sass, source.scss",
 	"shell": "true",
 	"windows":
 	{
-		"cmd": ["compasswatch.bat", "${file_path}"]
+		"cmd": ["compasswatch.bat", "${project_path:${folder}}", "${file_path}"]
 	}
 }
