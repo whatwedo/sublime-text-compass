@@ -1,0 +1,1 @@
+- Fixed path variables to use with compass.rb, sublime-projects and non-sublime-projects
