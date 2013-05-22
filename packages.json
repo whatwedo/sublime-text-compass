@@ -6,12 +6,12 @@
 			"description": "A Compass Build/Watch System for SCSS/SASS",
 			"author": "René Stalder",
 			"homepage": "https://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System",
-			"last_modified": "2013-05-21 12:11:00",
+			"last_modified": "2013-05-22 10:57:00",
 			"platforms": {
 				"*": [
 					{
-						"version": "1.0.6",
-						"url": "https://nodeload.github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System/zipball/v1.0.6"
+						"version": "1.0.7",
+						"url": "https://nodeload.github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System/zipball/v1.0.7"
 					}
 				]
 			}
