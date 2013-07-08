@@ -76,3 +76,7 @@ Build
 ------------------------------------
 
 Open one of your .sass files and press CTRL + B (or Tools > Build). If you have more than one Build System that is able to compile SASS, change the Build System to Compass under Tools > Build.
+
+F.A.Q.
+------------------------------------
+* [How to configure Compass build with rbenv in Sublime Text 2?](http://stackoverflow.com/questions/13712801/how-to-configure-compass-build-with-rbenv-in-sublime-text-2/13712802#13712802)
