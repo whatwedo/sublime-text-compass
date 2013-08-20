@@ -1,20 +1,18 @@
 {
-	"schema_version": "1.2",
+	"schema_version": "2.0",
 	"packages": [
 		{
 			"name": "Compass",
-			"description": "A Compass Build/Watch System for SCSS/SASS",
+			"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System",
 			"author": "René Stalder",
 			"homepage": "https://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System",
-			"last_modified": "2013-05-22 10:57:00",
-			"platforms": {
-				"*": [
-					{
-						"version": "1.0.7",
-						"url": "https://nodeload.github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System/zipball/v1.0.7"
-					}
-				]
-			}
+			"readme": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/blob/master/README.markdown",
+			"releases": [
+				{
+					"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/tags"
+				}
+			],
+			"labels": ["compass", "scss", "sass", "css", "precompiler", "build", "watch", "css3"]
 		}
 	]
 }
