@@ -1,3 +1,12 @@
 1.0.9:
 
-- Minor fix for Windows batch when config.rb is in the root folder of the project
+- Minor fix for Windows: Better handling for lowest level directory config.rb files
+
+---
+
+submitted by https://github.com/johnmave126
+
+<3
+
+Submit new issues to:
+https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues
