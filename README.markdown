@@ -1,4 +1,4 @@
-Compass Build System for Sublime Text 2 & 3
+Compass Build System for Sublime Text 2
 ===========================================
 
 Adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed).
