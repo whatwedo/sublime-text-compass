@@ -1,0 +1,3 @@
+1.0.9:
+
+- Minor fix for Windows batch when config.rb is in the root folder of the project
