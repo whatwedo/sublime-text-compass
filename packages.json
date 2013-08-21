@@ -9,7 +9,6 @@
 			"readme": "https://raw.github.com/whatwedo/Sublime-Text-2-Compass-Build-System/master/README.markdown",
 			"releases": [
 				{
-					"sublime_text": "<3000",
 					"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/tags"
 				}
 			],
