@@ -1,0 +1,12 @@
+Compass Package 1.0.8:
+
+- Delegate build to script. Find config.rb up the directory tree
+
+This patch delegates the build process to shell scripts for easier maintenance.
+
+The script parses the directory tree upwards and looks for config.rb and then executes the build in the correct folder - e.g where config.rb is. This enables the use of the build system in complex projects where the config.rb is not necessarily in the project root and the sass file can be several directory levels down from the compass config file.
+
+Also changed the build command from compass watch to compass compile as the watch command does not exit and subsequent build runs generate several zombie ruby processes eating up resources.
+
+submitted by https://github.com/attila
+Thanks <3
