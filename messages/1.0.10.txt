@@ -1,0 +1,11 @@
+1.0.10:
+
+- Fixes OSX/Linux lower level config.rb problems, which caused that Compass isn't searching in the root project folder first (submitted by https://github.com/attila)
+- Important: The Compass build isn't working for Sublime Text 3 Beta at this moment, see https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues/40
+
+---
+
+<3
+
+Submit new issues to:
+https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues
