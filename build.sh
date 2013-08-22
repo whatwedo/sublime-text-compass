@@ -8,6 +8,11 @@ if [[ -z "$COMPASS" ]]; then
   exit;
 fi
 
+if [ `find "$FILE_PATH" -maxdepth 1 -name config.rb` ]; then
+  $COMPASS compile "$FILE_PATH" --boring;
+  FOUND=1;
+fi;
+
 while [ "$FILE_PATH" != "$PROJECT_PATH" ];
   do FILE_PATH=`dirname "$FILE_PATH"`;
 
