@@ -3,7 +3,7 @@ FILE_PATH=$1;
 PROJECT_PATH=${2-/};
 COMPASS=`which compass`;
 
-if [[ -z "$COMPASS" ]]; then
+if [ -z "$COMPASS" ]; then
   echo "[ERROR] compass not found. Make sure it exists in your PATH.";
   exit;
 fi
@@ -23,6 +23,6 @@ while [ "$FILE_PATH" != "$PROJECT_PATH" ];
   fi;
 done
 
-if [[ -z "$FOUND" ]]; then
+if [ -z "$FOUND" ]; then
   echo "[ERROR] Build did not run because config.rb cannot be found.";
 fi
