@@ -1,4 +1,5 @@
 #!/bin/sh
+IFS=`printf '\n+'`; IFS=${IFS%+}
 FILE_PATH=$1;
 PROJECT_PATH=${2-/};
 COMPASS=`which compass`;
