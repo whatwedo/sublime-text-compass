@@ -1,0 +1,13 @@
+1.0.12:
+
+- Fixed build problems on OSX
+- Fixed bug with paths containing spaces
+
+(submitted by https://github.com/attila)
+
+---
+
+<3
+
+Submit new issues to:
+https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues
