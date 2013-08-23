@@ -1,4 +1,5 @@
 #!/bin/sh
+IFS=$"\012"
 FILE_PATH=$1;
 PROJECT_PATH=${2-/};
 COMPASS=`which compass`;

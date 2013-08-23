@@ -1,5 +1,5 @@
 {
-	"cmd": "sh '${packages}/Compass/build.sh' ${file_path} ${project_path:${folder}}",
+	"cmd": "sh '${packages}/Compass/build.sh' '${file_path}' '${project_path:${folder}}'",
 	"working_dir": "$packages/Compass",
 	"selector": "source.sass, source.scss",
 	"shell": "true",
