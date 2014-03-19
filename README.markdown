@@ -1,4 +1,4 @@
-Compass Build System for Sublime Text 2
+Compass Build System for Sublime Text 2 & 3
 ===========================================
 
 Adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed).
@@ -30,19 +30,21 @@ I recommend this method If you want the Compass Build System always up-to-date.
 
 ### Without Package Control plugin: GIT
 
+Path examples for
+
 1. Open terminal / git bash and browse to the Sublime Text Packages Folder
 
 * OSX:
 
-        cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+        cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
 * Windows:
 
-        C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
+        C:\Users\<username>\AppData\Roaming\Sublime Text 3\Packages
 
 * Linux:
 
-        ~/.config/sublime-text-2/Packages/
+        ~/.config/sublime-text-3/Packages/
 
 2. `git clone` the repository in a Folder named "Compass". The folder have to be named Compass for the Build System to work.
 
@@ -56,15 +58,15 @@ I recommend this method If you want the Compass Build System always up-to-date.
 
 * OSX:
 
-        cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+        cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
 * Windows:
 
-        C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages
+        C:\Users\<username>\AppData\Roaming\Sublime Text 3\Packages
 
 * Linux:
 
-        ~/.config/sublime-text-2/Packages/
+        ~/.config/sublime-text-3/Packages/
 
 3. Once that folder is open, close Sublime Text.
 

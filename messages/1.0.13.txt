@@ -1,0 +1,10 @@
+1.0.13:
+
+- Package now available for Sublime Text 3
+
+---
+
+<3
+
+Submit new issues to:
+https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues
