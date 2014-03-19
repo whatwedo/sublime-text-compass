@@ -4,11 +4,12 @@
 		{
 			"name": "Compass",
 			"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System",
-			"author": "René Stalder",
+			"author": "whatwedo",
 			"homepage": "https://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System",
 			"readme": "https://raw.github.com/whatwedo/Sublime-Text-2-Compass-Build-System/master/README.markdown",
 			"releases": [
 				{
+                    "sublime_text": "*",
 					"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/tags"
 				}
 			],
