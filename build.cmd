@@ -19,5 +19,6 @@ for /f "tokens=* delims=;" %%F in ("%fileDir%\..") do if not exist "%fileDir%\co
 if not defined fileDir (
   echo [ERROR] config.rb not found.
 ) else (
-  compass compile '%fileDir%' --boring
+  cd '%fileDir%'
+  compass compile --boring
 )
