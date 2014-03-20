@@ -1,0 +1,10 @@
+1.0.15:
+
+- Well, Hotfix for the Hotfix for Windows to find correct file path
+
+---
+
+<3
+
+Submit new issues to:
+https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues
