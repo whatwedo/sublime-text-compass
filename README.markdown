@@ -17,62 +17,16 @@ Ruby and the Compass Gem have to be installed. Important: This package is not go
 INSTALLATION
 ------------------------------------
 
-### With Package Control plugin (Recommended)
+### With Package Control plugin
 
 I recommend this method If you want the Compass Build System always up-to-date.
 
-1. Install the [Package Control Plugin](http://wbond.net/sublime_packages/package_control) for Sublime Text 2. Follow the instructions and restart Sublime Text 2.
+1. Install the [Package Control Plugin](http://wbond.net/sublime_packages/package_control) for Sublime Text 2 or 3. Follow the instructions and restart Sublime Text.
 2. Use Preferences > Package Control or `Command+Shift+P` (OS X) / `Control+Shift+P` (Linux/Windows) and select "Package Control: Install Package". Wait while repositories are loading.
 3. When the command form appears type "Compass" and you'll find the Compass Build System. Select to install.
 
 ![Package Control](http://f.cl.ly/items/3k2y0g1U342o3W3K3336/Image%202012-08-21%20at%209.40.41%20PM.png)
 
-
-### Without Package Control plugin: GIT
-
-Path examples for
-
-1. Open terminal / git bash and browse to the Sublime Text Packages Folder
-
-* OSX:
-
-        cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-
-* Windows:
-
-        C:\Users\<username>\AppData\Roaming\Sublime Text 3\Packages
-
-* Linux:
-
-        ~/.config/sublime-text-3/Packages/
-
-2. `git clone` the repository in a Folder named "Compass". The folder have to be named Compass for the Build System to work.
-
-        git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
-
-### Manually
-
-1. Download the zipped package from Github
-
-2. Browse to the Sublime Text Package folder. For Sublime Text 2 paths look like the following examples:
-
-* OSX:
-
-        cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-
-* Windows:
-
-        C:\Users\<username>\AppData\Roaming\Sublime Text 3\Packages
-
-* Linux:
-
-        ~/.config/sublime-text-3/Packages/
-
-3. Once that folder is open, close Sublime Text.
-
-4. Extract the zip, rename the folder to "Compass" and move it in the package folder
-
-5. Restart Sublime Text.
 
 Build
 ------------------------------------
