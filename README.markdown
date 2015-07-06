@@ -35,8 +35,14 @@ Build
 
 Open one of your .sass files and press CTRL + B (or Tools > Build). If you have more than one Build System that is able to compile SASS, change the Build System to Compass under Tools > Build.
 
-F.A.Q.
-------------------------------------
-* [How to configure Compass build with rbenv in Sublime Text 2?](http://stackoverflow.com/questions/13712801/how-to-configure-compass-build-with-rbenv-in-sublime-text-2/13712802#13712802)
-* **Sprite mixins from Compass don't work. What can I do?**
-  You'll have to edit the sprite importer from Compass. Take a look at the [issue](https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues/8#issuecomment-15667120) and the [original fix in the Compass repository](https://github.com/Compass/compass/commit/58babac).
+## Troubleshoot
+
+### How to configure Compass build with rbenv in Sublime Text 2?
+
+See topic on [Stackoverflow](http://stackoverflow.com/questions/13712801/how-to-configure-compass-build-with-rbenv-in-sublime-text-2/13712802#13712802)
+
+### Sprite mixins from Compass don't work. What can I do?
+You'll have to edit the sprite importer from Compass. Take a look at the [issue](https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues/8#issuecomment-15667120) and the [original fix in the Compass repository](https://github.com/Compass/compass/commit/58babac).
+
+### Error `folder was unexpected at this time`
+This is a Windows only issue and means, you have special chars in your project path. To get it working, remove special chars in your folder names. There mustn't be any single special char in the whole path down to the project. [See support thread, #59](https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues/59).
