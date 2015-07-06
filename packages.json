@@ -3,14 +3,14 @@
 	"packages": [
 		{
 			"name": "Compass",
-			"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System",
+			"details": "https://github.com/whatwedo/sublime-text-compass",
 			"author": "whatwedo",
-			"homepage": "https://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System",
-			"readme": "https://raw.github.com/whatwedo/Sublime-Text-2-Compass-Build-System/master/README.markdown",
+			"homepage": "https://github.com/whatwedo/sublime-text-compass",
+			"readme": "https://raw.githubusercontent.com/whatwedo/sublime-text-compass/develop/README.markdown",
 			"releases": [
 				{
                     "sublime_text": "*",
-					"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/tags"
+					"details": "https://github.com/whatwedo/sublime-text-compass/tags"
 				}
 			],
 			"labels": ["compass", "scss", "sass", "css", "precompiler", "build", "watch", "css3"]
