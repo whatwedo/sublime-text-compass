@@ -1,0 +1,5 @@
+1.0.16:
+
+## Fixes
+- Update README with some troubleshoot infos.
+- Fix for renamed packages repository
