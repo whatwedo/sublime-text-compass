@@ -1,5 +1,6 @@
 {
 	"cmd": "sh '${packages}/Compass/build.sh' '${file_path}' '${project_path:${folder}}'",
+	"path": "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin",
 	"working_dir": "$packages/Compass",
 	"selector": "source.sass, source.scss",
 	"shell": "true",
