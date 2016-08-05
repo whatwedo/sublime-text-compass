@@ -9,6 +9,6 @@
 	},
 	"osx": 
 	{
-		"path": "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+		"path": "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 	}
 }
