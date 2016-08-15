@@ -1,0 +1,6 @@
+1.0.17:
+
+## Fixes
+- Add additional Ruby paths for OSX users. This might fix a problem where Sublime Text on OSX couldn't find Ruby.
+- Update urls in the installation message.
+- Update package for new Package Control version.
