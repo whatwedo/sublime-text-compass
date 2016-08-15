@@ -3,10 +3,10 @@ Congratulations! Compass Build System was installed.
 Open one of your .scss files and press CTRL + B (or Tools > Build). If you have more than one Build System that is able to compile SASS, change the Build System to Compass under Tools > Build. Happy building!
 
 See latest changes and updates:
-https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/releases
+https://github.com/whatwedo/sublime-text-compass/releases
 
 Submit bugs or ideas to:
-https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/issues
+https://github.com/whatwedo/sublime-text-compass/issues
 
 Further informations about the package:
-https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/
+https://github.com/whatwedo/sublime-text-compass/
