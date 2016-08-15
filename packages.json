@@ -1,19 +1,18 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "Compass",
 			"details": "https://github.com/whatwedo/sublime-text-compass",
 			"author": "whatwedo",
-			"homepage": "https://github.com/whatwedo/sublime-text-compass",
 			"readme": "https://raw.githubusercontent.com/whatwedo/sublime-text-compass/develop/README.markdown",
 			"releases": [
 				{
                     "sublime_text": "*",
-					"details": "https://github.com/whatwedo/sublime-text-compass/tags"
+					"tags": true
 				}
 			],
-			"labels": ["compass", "scss", "sass", "css", "precompiler", "build", "watch", "css3"]
+			"labels": ["compass", "scss", "sass", "css", "precompiler", "build", "watch", "css3", "build system", "minification"]
 		}
 	]
 }

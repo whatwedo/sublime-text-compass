@@ -6,5 +6,9 @@
 	"windows":
 	{
 		"cmd": "build.cmd \"${file_path}\" \"${project_path:${folder}}\""
+	},
+	"osx": 
+	{
+		"path": "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 	}
 }
